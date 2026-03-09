@@ -869,6 +869,7 @@ dependencies = [
     { name = "typing-extensions" },
     { name = "tzdata" },
     { name = "uvicorn", extra = ["standard"] },
+    { name = "yt-dlp" },
 ]
 
 [package.optional-dependencies]
@@ -944,6 +945,7 @@ requires-dist = [
     { name = "typing-extensions", specifier = "==4.15.0" },
     { name = "tzdata", specifier = "==2025.3" },
     { name = "uvicorn", extras = ["standard"], specifier = "==0.41.0" },
+    { name = "yt-dlp", specifier = "==2026.3.3" },
 ]
 provides-extras = ["pgsql"]
 
@@ -2075,4 +2077,13 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/ff/83/de1f7709376dc3ca9b7eeb4b9a07b4526b14876b6d372a4dc62312bebee0/websockets-15.0.1-cp312-cp312-win32.whl", hash = "sha256:c338ffa0520bdb12fbc527265235639fb76e7bc7faafbb93f6ba80d9c06578a9", size = 176395, upload-time = "2025-03-05T20:02:33.017Z" },
     { url = "https://files.pythonhosted.org/packages/7d/71/abf2ebc3bbfa40f391ce1428c7168fb20582d0ff57019b69ea20fa698043/websockets-15.0.1-cp312-cp312-win_amd64.whl", hash = "sha256:fcd5cf9e305d7b8338754470cf69cf81f420459dbae8a3b40cee57417f4614a7", size = 176841, upload-time = "2025-03-05T20:02:34.498Z" },
     { url = "https://files.pythonhosted.org/packages/fa/a8/5b41e0da817d64113292ab1f8247140aac61cbf6cfd085d6a0fa77f4984f/websockets-15.0.1-py3-none-any.whl", hash = "sha256:f7a866fbc1e97b5c617ee4116daaa09b722101d4a3c170c787450ba409f9736f", size = 169743, upload-time = "2025-03-05T20:03:39.41Z" },
+]
+
+[[package]]
+name = "yt-dlp"
+version = "2026.3.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/66/6f/7427d23609353e5ef3470ff43ef551b8bd7b166dd4fef48957f0d0e040fe/yt_dlp-2026.3.3.tar.gz", hash = "sha256:3db7969e3a8964dc786bdebcffa2653f31123bf2a630f04a17bdafb7bbd39952", size = 3118658, upload-time = "2026-03-03T16:54:53.909Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7e/a4/8b5cd28ab87aef48ef15e74241befec3445496327db028f34147a9e0f14f/yt_dlp-2026.3.3-py3-none-any.whl", hash = "sha256:166c6e68c49ba526474bd400e0129f58aa522c2896204aa73be669c3d2f15e63", size = 3315599, upload-time = "2026-03-03T16:54:51.899Z" },
 ]
